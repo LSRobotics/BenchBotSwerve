@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.5569713732020058,
+      "y": 6.958364495432694
+    },
+    "rotation": -0.5850658072996963
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "JustShootBlue"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Blue Alliance Autos",
+  "choreoAuto": false
+}
