@@ -1,0 +1,49 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.5569713732020058,
+        "y": 6.958364495432694
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.6206908108260663,
+        "y": 5.895562281865305
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 1.5569713732020058,
+        "y": 5.453564356202787
+      },
+      "prevControl": {
+        "x": 1.5565556825558098,
+        "y": 6.793988537051148
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 179.33185793167124,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Blue Alliance Paths",
+  "previewStartingState": null,
+  "useDefaultConstraints": false
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 14.103524609826996,
+      "y": 7.007119069793695
+    },
+    "rotation": 0.17961000574721106
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Path1Red"
+          }
+        }
+      ]
+    }
+  },
+  "folder": "Red Alliance Autos",
+  "choreoAuto": false
+}

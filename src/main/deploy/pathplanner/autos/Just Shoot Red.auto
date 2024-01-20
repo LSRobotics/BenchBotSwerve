@@ -2,8 +2,8 @@
   "version": 1.0,
   "startingPose": {
     "position": {
-      "x": 2.0051291944101743,
-      "y": 5.115328562130339
+      "x": 14.92938315506261,
+      "y": 6.719758064516129
     },
     "rotation": 0
   },
@@ -14,12 +14,12 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Test"
+            "pathName": "JustShootRed"
           }
         }
       ]
     }
   },
-  "folder": null,
+  "folder": "Red Alliance Autos",
   "choreoAuto": false
 }
