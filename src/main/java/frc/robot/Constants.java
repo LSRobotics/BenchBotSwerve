@@ -144,4 +144,36 @@ public final class Constants {
             new TrapezoidProfile.Constraints(
                 kMaxAngularSpeedRadiansPerSecond, kMaxAngularSpeedRadiansPerSecondSquared);
     }
+
+    public static final class IntakeConstants { //TODO: Update Intake CAN IDs
+        public static final int intakeMotorOneID = 0;
+        public static final int intakeMotorTwoID = 0;
+        public static final int intakeDeployID = 0;
+
+        public static final int intakeTopLimitChannel = 0;
+        public static final int intakeBottomLimitChannel = 0;
+
+        public static final int intakeBeamBreakChannel = 0;
+    }
+
+    public static final class ElevatorConstants { //TODO: Update Elevator CAN IDs
+        public static final int rightElevatorMotorID = 0;
+        public static final int leftElevatorMotorID = 0;
+
+        public static final int elevatorTopLimitChannel = 0;
+        public static final int elevatorBottomLimitChannel = 0;
+    }
+
+    public static final class IndexerConstants { //TODO: Update Indexer CAN IDs and Channels
+        public static final int indexMotorID = 0;
+        public static final int indexBeamBreakChannel = 0;
+    }
+
+    public static final class ShooterConstants {
+        public static final int shooterMotorOneID = 0;
+        public static final int shooterMotorTwoID = 0;
+        public static final int wristMotorID = 0;
+        public static final int wristLimitOneChannel = 0;
+        public static final int wristLimitTwoChannel = 0;
+    }
 }
