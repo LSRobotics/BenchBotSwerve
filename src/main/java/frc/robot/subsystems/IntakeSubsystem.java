@@ -15,7 +15,7 @@ public class IntakeSubsystem extends SubsystemBase {
   public DigitalInput intakeTopLimit;
   public DigitalInput intakeBottomLimit;
 
-  public DigitalInput intakeBeamBreak;
+  //Time of Flight Sensor Definition
 
   public IntakeSubsystem() {
     intakeMotorOne = new CANSparkMax(IntakeConstants.intakeMotorOneID, MotorType.kBrushless);
@@ -25,6 +25,6 @@ public class IntakeSubsystem extends SubsystemBase {
     intakeTopLimit = new DigitalInput(IntakeConstants.intakeTopLimitChannel);
     intakeBottomLimit = new DigitalInput(IntakeConstants.intakeBottomLimitChannel);
 
-    intakeBeamBreak = new DigitalInput(IntakeConstants.intakeBeamBreakChannel);
+    //intakeSensor
   }
 }
