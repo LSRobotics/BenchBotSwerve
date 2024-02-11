@@ -93,7 +93,7 @@ public final class Constants {
             public static final int driveMotorID = 11;
             public static final int angleMotorID = 10;
             public static final int canCoderID = 25;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(89.82); //-0.25 degrees
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0); //-0.25 degrees
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, canCoderID, angleOffset);
         }
@@ -103,7 +103,7 @@ public final class Constants {
             public static final int driveMotorID = 5;
             public static final int angleMotorID = 4;
             public static final int canCoderID = 27;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(-178.15); //0 degrees
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0); //0 degrees
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, canCoderID, angleOffset);
         }
@@ -113,7 +113,7 @@ public final class Constants {
             public static final int driveMotorID = 19;
             public static final int angleMotorID = 18;
             public static final int canCoderID = 26;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(227.90); //0.36 degrees
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0); //0.36 degrees
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, canCoderID, angleOffset);
         }
@@ -123,7 +123,7 @@ public final class Constants {
             public static final int driveMotorID = 3;
             public static final int angleMotorID = 2;
             public static final int canCoderID = 24;
-            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(171.38); //0.02 degrees
+            public static final Rotation2d angleOffset = Rotation2d.fromDegrees(0); //0.02 degrees
             public static final SwerveModuleConstants constants = 
                 new SwerveModuleConstants(driveMotorID, angleMotorID, canCoderID, angleOffset);
         }
@@ -143,5 +143,40 @@ public final class Constants {
         public static final TrapezoidProfile.Constraints kThetaControllerConstraints =
             new TrapezoidProfile.Constraints(
                 kMaxAngularSpeedRadiansPerSecond, kMaxAngularSpeedRadiansPerSecondSquared);
+    }
+
+    public static final class IntakeConstants { // TODO: Update Intake CAN IDs
+        public static final int intakeMotorOneID = 13;
+        public static final double intakeSpeed = 0.8;
+    }
+
+    public static final class ElevatorConstants { // TODO: Update Elevator CAN IDs
+        public static final int rightElevatorMotorID = 95;
+        public static final int leftElevatorMotorID = 96;
+
+        public static final int elevatorTopLimitChannel = 5;
+        public static final int elevatorBottomLimitChannel = 6;
+
+        public static final double elevatorSpeed = .5;
+    }
+
+    public static final class IndexerConstants { // TODO: Update Indexer CAN IDs and Channels
+        public static final int indexMotorID = 11;
+        public static final int indexBeamBreakChannel = 7;
+    }
+
+    public static final class ShooterConstants {
+        public static final int shooterMotorOneID = 99;
+        public static final int shooterMotorTwoID = 98;
+        public static final int wristMotorID = 97;
+        public static final int wristLimitOneChannel = 9;
+        public static final int wristLimitTwoChannel = 8;
+        public static final int subwofferAngle = 75;
+        public static final int ampAngle = 85;
+        public static final double wristP = 0;
+        public static final double wristI = 0;
+        public static final double wristD = 0;
+        public static final double wristPosTolerance = 1;
+        public static final double wristVelTolerance = 1;
     }
 }
