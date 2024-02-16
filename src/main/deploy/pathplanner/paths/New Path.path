@@ -3,59 +3,53 @@
   "waypoints": [
     {
       "anchor": {
-        "x": 0.6160371039603297,
-        "y": 6.592756435809432
+        "x": 2.0,
+        "y": 7.0
       },
       "prevControl": null,
       "nextControl": {
-        "x": 1.580118178029951,
-        "y": 6.446683545798883
+        "x": 3.0,
+        "y": 6.5
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 2.154671545404776,
-        "y": 6.953069564502119
+        "x": 2.476313254513301,
+        "y": 5.014640972678172
       },
       "prevControl": {
-        "x": 2.0246874498716205,
-        "y": 6.954498871883572
+        "x": 1.4763132545133009,
+        "y": 6.014640972678172
       },
       "nextControl": {
-        "x": 2.2846556409379315,
-        "y": 6.951640257120666
+        "x": 3.4763132545133004,
+        "y": 4.014640972678172
       },
       "isLocked": false,
       "linkedName": null
     },
     {
       "anchor": {
-        "x": 5.494871630307787,
-        "y": 6.953069564502119
+        "x": 7.0,
+        "y": 1.0
       },
       "prevControl": {
-        "x": 4.608696097577124,
-        "y": 6.962807757169489
+        "x": 6.75,
+        "y": 2.5
       },
       "nextControl": null,
       "isLocked": false,
       "linkedName": null
     }
   ],
-  "rotationTargets": [
-    {
-      "waypointRelativePos": 1,
-      "rotationDegrees": -178.31531568210363,
-      "rotateFast": false
-    }
-  ],
+  "rotationTargets": [],
   "constraintZones": [],
   "eventMarkers": [
     {
-      "name": "SHOOT (TEMP WAIT)",
-      "waypointRelativePos": 1.5,
+      "name": "New Event Marker",
+      "waypointRelativePos": 1.4,
       "command": {
         "type": "parallel",
         "data": {
@@ -63,24 +57,7 @@
             {
               "type": "wait",
               "data": {
-                "waitTime": 3.0
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "name": "INTAKE",
-      "waypointRelativePos": 1.25,
-      "command": {
-        "type": "parallel",
-        "data": {
-          "commands": [
-            {
-              "type": "named",
-              "data": {
-                "name": "runIntakeCommand"
+                "waitTime": 0.05
               }
             }
           ]
@@ -96,14 +73,11 @@
   },
   "goalEndState": {
     "velocity": 0,
-    "rotation": 180.0,
+    "rotation": 0,
     "rotateFast": false
   },
   "reversed": false,
   "folder": null,
-  "previewStartingState": {
-    "rotation": -121.60750224624901,
-    "velocity": 0
-  },
-  "useDefaultConstraints": true
+  "previewStartingState": null,
+  "useDefaultConstraints": false
 }
